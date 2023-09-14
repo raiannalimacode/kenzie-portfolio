@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/kenzie-portfolio`;
 
   return (
     <main id="home">
@@ -47,7 +47,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -58,8 +58,14 @@ export const Home = (): JSX.Element => {
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              I'm a developer who is always learning.
+              I already studied Environmental Management and
+              decided to change my course to the technology area.
+              I did a project working as a freelancer and several projects
+              studying at Kenzie Academy. I'm proficient in HTML and CSS and a
+              little bit of JAVASCRIPT. I know intermediate English. I am proactive,
+              agile and focused. I have good writing and speaking skills.
+              I learn quickly and am always looking to improve my knowledge.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
